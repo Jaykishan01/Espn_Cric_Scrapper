@@ -59,11 +59,11 @@ function ectractMatchDetails(html) {
             if (isWorthy == true) {
                 let playerName = $(allCols[0]).text().trim();
 
-                let runs = $(allCols[2]).text().trim();
+                let runs =  $(allCols[2]).text().trim();
                 let balls = $(allCols[3]).text().trim();
                 let fours = $(allCols[5]).text().trim();
                 let sixes = $(allCols[6]).text().trim();
-                let STR = $(allCols[7]).text().trim();
+                let STR   =  $(allCols[7]).text().trim();
 
 
                 console.log(`${playerName} | ${runs} |${balls} | ${fours} | ${sixes} | ${STR}`);
